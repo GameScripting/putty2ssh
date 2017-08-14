@@ -8,6 +8,13 @@ If you're moving from Windows to Linux you'll probably want to keep all your SSH
 
 On Linux one uses a `.ssh/config` file to store ssh connections. To speed up the migration convert your list of accounts from PuTTY registery key to a ssh config format.
 
+### Supported features:
+
+- Profile name
+- Hostname
+- Port
+- Local + Remote port forwards
+
 ## Windows: Export Registry Keys
 
 The below command should export all your sessions to the a file `putty.reg` on your desktop.
